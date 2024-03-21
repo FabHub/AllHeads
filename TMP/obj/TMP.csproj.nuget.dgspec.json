@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "f:\\AllHeads\\TMP\\TMP.csproj": {}
+  },
+  "projects": {
+    "f:\\AllHeads\\TMP\\TMP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "f:\\AllHeads\\TMP\\TMP.csproj",
+        "projectName": "TMP",
+        "projectPath": "f:\\AllHeads\\TMP\\TMP.csproj",
+        "packagesPath": "C:\\Users\\michal.fabis\\.nuget\\packages\\",
+        "outputPath": "f:\\AllHeads\\TMP\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\michal.fabis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.ApplicationInsights.WorkerService": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker": {
+              "target": "Package",
+              "version": "[1.20.1, )"
+            },
+            "Microsoft.Azure.Functions.Worker.ApplicationInsights": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker.Sdk": {
+              "target": "Package",
+              "version": "[1.16.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
